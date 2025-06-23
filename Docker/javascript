@@ -1,0 +1,11 @@
+# Use an official Node.js image
+FROM node:latest
+
+# Set the working directory
+WORKDIR /usr/src/app
+
+# Copy the source code to the container
+COPY . .
+
+# Command to run your JavaScript file
+CMD ["node", "index.js"]

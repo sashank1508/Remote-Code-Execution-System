@@ -1,0 +1,14 @@
+# Use an official Python runtime as a parent image
+FROM python:3.9
+
+# Set the working directory
+WORKDIR /usr/src/app
+
+# Copy the source code to the container
+COPY . .
+
+# Install any needed packages (if required)
+# RUN pip install --no-cache-dir -r requirements.txt
+
+# Command to run your Python script
+CMD ["python", "script.py"]

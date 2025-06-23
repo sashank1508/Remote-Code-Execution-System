@@ -1,0 +1,14 @@
+# Use an official OpenJDK runtime as a parent image
+FROM openjdk:latest
+
+# Set the working directory
+WORKDIR /usr/src/app
+
+# Copy the source code to the container
+COPY . .
+
+# Compile the Java code
+RUN javac Main.java
+
+# Command to run your Java program
+CMD ["java", "Main"]

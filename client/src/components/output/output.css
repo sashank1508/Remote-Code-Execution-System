@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+SC&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+SC&family=Zilla+Slab:wght@500&display=swap");
+.input-title {
+  text-align: center;
+  font-family: "Noto Serif SC", serif;
+  background-color: white;
+  border-radius: 4px 4px 4px;
+}
+
+.main {
+  height: 45%;
+}
+
+.inx {
+  font-family: "Noto Serif SC", serif;
+  font-family: "Zilla Slab", serif;
+  font-weight: 10;
+  background: white;
+  color: black;
+  width: 100%;
+  height: calc(100% - 75px);
+  border: 1px solid black;
+  border-radius: 4px;
+  resize: none;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+
+}

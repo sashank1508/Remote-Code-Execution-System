@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Stint+Ultra+Condensed&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&family=Stint+Ultra+Condensed&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Quicksand:wght@300&display=swap");
+
+html,
+body {
+  overflow: hidden;
+  background-image: url("../../Assests/imageedit_1_9916176365.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Home-screen {
+  padding-top: 15%;
+  text-align: center;
+}
+.inside-form {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.Code-clan {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  font-size: 800%;
+  text-align: center;
+}
+
+.input {
+  text-align: center;
+}
+.name_input {
+  font-family: "Montserrat", sans-serif;
+  border-radius: 25px;
+  margin: 5px;
+  text-align: center;
+  background-color: beige;
+  border-color: beige;
+  box-shadow: none;
+}
+.btnx {
+  font-family: "Montserrat", sans-serif;
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  color: white;
+  border-bottom: none;
+  border-width: 0px;
+}
+
+.submit-div {
+  text-align: center;
+  padding: 15px;
+}
+
+.error-message {
+  color: red;
+  margin-bottom: 10px;
+  font-weight: bold;
+}

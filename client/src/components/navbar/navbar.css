@@ -1,0 +1,18 @@
+.navbar-brand {
+  font-size: 30px;
+  font-family: Righteous;
+  color: black;
+  /* // #1b2631; */
+  font-weight: 500;
+}
+.navdropdown {
+  color: #1b2631;
+  font-family: Roboto;
+}
+.color-nav {
+  background-color: black;
+}
+
+.dropdown-item-button {
+  flex-direction: column;
+}
